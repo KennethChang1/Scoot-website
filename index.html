@@ -1,83 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&family=Space+Mono:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="scss/styles.css">
+  <script src="script.js" defer></script>
+
   <title>Frontend Mentor | Scoot</title>
 </head>
+
 <body>
-
-  About
-  Location
-  Careers
-
-  Get Scootin
-
-
-
-  Scooter sharing made simple
-
-  Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient 
-  locations in each of our cities. Use our app to locate the nearest bike, unlock 
-  it with a tap, and you’re away!
-
-  Get Scootin
-
-
-
-  Locate with app
-
-  Use the app to find the nearest scooter to you. We are continuously placing scooters 
-  in the areas with most demand, so one should never be too far away. 
-
-  Pick your scooter
-
-  We show the most important info for the scooters closest to you. So you know how much 
-  charge they have left and can see roughly how much it will cost.
-
-  Enjoy the ride
-
-  Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, 
-  and you’re off! Always lock bikes away from walkways and accessibility ramps.
-
-
-
-  Easy to use riding telemetry
-
-  The Scoot app is available with riding telemetry. This means it can show you your 
-  average speed, how long you've been using the scooter, your traveling distance, 
-  and many more things all in an easy to use app.
-
-  Learn More
-
-  Coming to a city near you
-
-  Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure 
-  to let us know if you want to see us in your hometown. We’re aiming to let our 
-  scooters loose on 23 cities over the coming year.
-
-  Learn More
-
-  Zero hassle payments
-
-  Our payment is as easy as one two three. We accept most credit cards and debit cards. 
-  You can also link your PayPal account inside the app. Need to pay later? No worries! 
-  You can defer payment for up to a month.
-
-  Learn More
-
-
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
+  <header>
+    <nav class="nav m-auto center">
+      <div>
+        <img class="hamburger" src="assets/icons/hamburger.svg" alt="">
+        <img class="logo" src="assets/logo.svg" alt="">
+      </div>
+    </nav>
+    <div class="header-container relative">
+      <div class="nav-links absolute text-white ff-space-mono">
+        <ul class="mb-4">
+          <li class="mb-3">About</li>
+          <li class="mb-3">Location</li>
+          <li class="mb-3">Careers</li>
+        </ul>
+        <a href="#" class="btn ff-space-mono center">Get Scootin</a>
+      </div>
+      <div class="header-content m-auto center">
+        <h1 class="header-title text-white ff-space-mono">Scooter sharing made simple</h1>
+        <p class="text-white ff-lexends-deca">Scoot takes the hassle out of urban mobility. Our bikes are
+          placed in convenient locations in each of our
+          cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
+        <a href="#" class="btn ff-space-mono m-auto">Get Scootin</a>
+      </div>
+      <img class="header-arrow absolute" src="assets/patterns/right-arrow.svg" alt="">
+    </div>
+  </header>
+  <main>
+    <section class="container center">
+      <div class="mb-1">
+        <img src="assets/icons/locate.svg" alt="">
+        <h2 class="ff-space-mono title-1">Locate with app</h2>
+        <p class="ff-lexends-deca text-gray">Use the app to find the nearest scooter to you. We are continuously placing
+          scooters in the areas with most
+          demand, so one should never be too far away. </p>
+      </div>
+      <div class="mb-1">
+        <img src="assets/icons/scooter.svg" alt="">
+        <h2 class="ff-space-mono title-1">Pick your scooter</h2>
+        <p class="ff-lexends-deca text-gray">We show the most important info for the scooters closest to you. So you
+          know how much charge they have left and can see roughly how much it will cost. </p>
+      </div>
+      <div class="mb-1">
+        <img src="assets/icons/ride.svg" alt="">
+        <h2 class="ff-space-mono title-1">Enjoy the ride</h2>
+        <p class="ff-lexends-deca text-gray">Scan the QR code and the bike will unlock. Retract the cable lock, put on a
+          helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps. </p>
+      </div>
+    </section>
+    <section class="container center relative">
+      <div class="mb-2">
+        <div>
+          <img class="img-2" src="assets/images/telemetry.jpg" alt="">
+          <img class="absolute translate-xy-1" src="assets/patterns/left-downward-arrow.svg" alt="">
+        </div>
+        <h3 class="ff-space-mono title-2">Easy to use riding telemetry</h3>
+        <p class="ff-lexends-deca text-gray">The Scoot app is available with riding telemetry. This means it can show
+          you your average speed, how long
+          you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
+        <a href="#" class="btn ff-space-mono m-auto">Learn More</a>
+      </div>
+      <div class="mb-2">
+        <img class="img-2" src="assets/images/near-you.jpg" alt="">
+        <img class="absolute translate-xy-2" src="assets/patterns/right-arrow.svg" alt="">
+        <h3 class="ff-space-mono title-2">Coming to a city near you</h3>
+        <p class="ff-lexends-deca text-gray">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be
+          sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23
+          cities over the coming year.</p>
+        <a href="#" class="btn ff-space-mono m-auto">Learn More</a>
+      </div>
+      <div class="mb-2">
+        <img class="img-2" src="assets/images/payments.jpg" alt="">
+        <img class="absolute translate-xy-3" src="assets/patterns/left-downward-arrow.svg" alt="">
+        <h3 class="ff-space-mono title-2">Zero hassle payments</h3>
+        <p class="ff-lexends-deca text-gray">Our payment is as easy as one two three. We accept most credit cards and
+          debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can
+          defer payment for up to a month.</p>
+        <a href="#" class="btn ff-space-mono m-auto">Learn More</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="cta center">
+      <h4 class="text-white ff-space-mono footer-header">Sign up and Scoot off today</h4>
+      <img src="assets/icons/app-store.svg" alt="">
+      <img src="assets/icons/google-play.svg" alt="">
+    </div>
+    <div class="footer-container bg-dark center ff-space-mono text-gray">
+      <img class="footer-logo" src="assets/logo white.svg" alt="">
+      <ul class="footer-links">
+        <li class="mb-3">About</li>
+        <li class="mb-3">Location</li>
+        <li class="mb-3">Careers</li>
+      </ul>
+      <div>
+        <img src="assets/icons/facebook.svg" alt="">
+        <img src="assets/icons/twitter.svg" alt="">
+        <img src="assets/icons/instagram.svg" alt="">
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>

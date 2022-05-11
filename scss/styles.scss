@@ -1,0 +1,184 @@
+@import './reset';
+
+
+/* Utility classes */
+.ff-space-mono{
+    font-family: 'Space Mono', monospace;
+}
+
+.ff-lexends-deca{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.bg-dark{
+    background-color: #333A44;
+}
+
+.container{
+    padding: 0 32px;
+    margin: 120px 0;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-gray{
+    color: #939CAA;
+}
+
+.center{
+    text-align: center;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.mb-1{
+    margin-bottom: 48px;
+}
+
+.mb-2{
+    margin-bottom: 120px;
+}
+
+.mb-3{
+    margin-bottom: 24px;
+}
+
+.mb-4{
+    margin-bottom: 339px;
+}
+
+.translate-xy-1{
+    transform: translate(-42%, 100%);
+}
+
+.translate-xy-2{
+    transform: translate(-110%, 0%);
+}
+
+.translate-xy-3{
+    transform: translate(-25%, 0%);
+}
+/* Component classes*/
+.nav{
+    position: relative;
+    width: 90%;
+    padding: 22px;
+}
+
+.nav-links{
+    background-color:#333A44;
+    width: 256px;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 64px 0 0 32px;
+    transform: translateX(-100%);
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links-active{
+    transform: translateX(0);
+}
+
+.hamburger{
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+.logo{
+    width: 75px;
+}
+
+.header-container{
+    background-image: url('../assets/images/home-hero-mobile.jpg');
+    padding: 115px 0 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-arrow{
+    transform: translateX(-70%);
+}
+
+
+.header-title{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+.header-content{
+    width: 311px;
+}
+
+.btn{
+    display: block;
+    width: 180px;
+    background-color: #FCB72B;
+    padding: 17px 0;
+    margin-top: 32px;
+}
+
+.title-1{
+    margin: 24px 0;
+    font-size: 20px;
+}
+
+.title-2{
+    font-size: 30px;
+    color: #495567;
+    margin-bottom: 32px;
+}
+
+.img-2{
+    width: 311px;
+    border-radius: 100%;
+    margin-bottom: 56px;
+}
+
+.cta{
+    height: 320px;
+    background-image: url('../assets/patterns/circle.svg'), url('../assets/patterns/semi-circles.svg');
+    background-color: #495567;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 180px 155px, -200px 160px;
+    padding: 88px 0;
+}
+
+.footer-header{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.footer-logo{
+    margin-bottom: 42px;
+}
+
+.footer-container{
+    padding: 64px 0 88px 0;
+}
+
+.footer-links{
+    margin-bottom: 80px;
+}
