@@ -88,16 +88,16 @@
 .nav-links{
     background-color:#333A44;
     width: 256px;
-    height: 100%;
-    top: 0;
+    height: 645px;
+    top: 67.13px;
     z-index: 1;
     padding: 64px 0 0 32px;
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     transition: 0.3s ease-in-out;
 }
 
 .nav-links-active{
-    transform: translateX(0);
+    transform: translateX(-17%);
 }
 
 .hamburger{
